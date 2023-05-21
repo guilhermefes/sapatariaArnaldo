@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+
+:root {
+  --cor-principal: #0e0d0d;
+  --cor-secundaria: #f3f2f0;
+  --fonte-titulos: 'Bookletter 1911';
+}
+
+body {
+  font-family: Goudy Bookletter 1911;
+  body
+  background-color: A27B5C;
+}
+
+.page-title {
+  margin: 40px auto 10px;
+  /*margin: top right bottom left; */
+  padding-left: 10px;
+  width: 80%;
+  font-size: 24pt;
+  font-family: var(--fonte-titulos);
+  color: var(--cor-principal);
+  /* Código hexadecimal da cor */
+}
+
+.strong-title {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+}
+
+.page-subtitle {
+  margin: 10px auto 10px;
+  padding-left: 10px;
+  width: 80%;
+  font-size: 20pt;
+  font-family: var(--fonte-titulos);
+}
+
+.titulo-artigo {
+  font-size: 18pt;
+  margin: 10px 10px 10px 10px;
+}
+
+.subtitulo-artigo {
+  font-size: 14pt;
+  margin: 10px 10px 10px 10px;
+}
+
+.paragrafo-artigo {
+  font-size: 12pt;
+  margin: 10px 10px 10px 10px;
+  line-height: 1.4;
+}
+
+.categoria-produto {
+  font-size: 140%;
+  font-weight: 600;
+  font-family: var(--fonte-titulos);
+  margin: 10px 10px 10px 10px;
+  background-color: var(--cor-principal);
+  color: #ffffff;
+  line-height: 3;
+  padding-left: 20px;
+}
+
+.vitrine-produtos {
+  margin: 40px 0;
+}
+
+.product-list {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.imagem-produto {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  object-position: 0 0;
+}
+
+.footer {
+  background-color: var(--cor-principal);
+  color: #ffffff;
+  padding: 20px;
+}
+
+.imagem-banner {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 0 10%;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: var(--cor-principal);
+}
+
+.logo {
+  font-family: Poppins, sans-serif;
+  font-size: 16pt;
+  font-weight: 900;
+  color: var(--cor-secundaria);
+  margin: 20px auto 0;
+  white-space: nowrap;
+}
+
+/* Menu de navegação principal */
+.navbar {
+  margin: auto;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar li {
+  padding: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  color: var(--cor-secundaria);
+}
+
+.navbar a:hover {
+  border-bottom: var(--cor-secundaria) solid 2px;
+  transition: 100ms;
+}
+
+.contact-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form {
+  width: 60%;
+}
+
+.contact-form label {
+  width: 100%;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+  width: 100%;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+select {
+  height: 1.4rem;
+  margin: 5px 0;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 4rem;
+}
+
+button {
+  line-height: 1.5;
+  box-shadow: #c0c1c2 2px 2px 2px;
+  border-radius: 2px;
+  border: none;
+}
+
+.complementary-info {
+  width: 30%;
+}
+
+.address-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.opening-hours h3,
+.main-address h3 {
+  font-size: 14pt;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.main-address p {
+  line-height: 1.5;
+}
+
+/* Responsividade para telas de até 600px */
+@media screen and (max-width: 600px) {
+
+  main,
+  .navbar,
+  .page-title,
+  .page-subtitle,
+  .contact-section,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-section,
+  .contact-form {
+    padding: 0 5px;
+  }
+
+  .page-title {
+    margin: 10px 0;
+  }
+}
+
+/* Responsividade para telas de até 380px */
+@media screen and (max-width: 380px) {
+
+  .navbar li,
+  .footer {
+    padding: 10px 5px;
+  }
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+body {
+    background-color: A27B5C;
+}
+hl {
+    color: 3F4E4F;
+    text-align: center;
+}
+p {
+    font-family: Goudy Bookletter 1911;
+    font-size: 16px;
+    color: DCD7C9;
+}
+
+
+contact-form  input
+contact-form select
+contact-form button
+contact-form textarea {
+   width: calc(100% + 8px);  
+}
+
+{form
+    label 
+    button {
+        display: block;
+
+
+
+{button>Enviar</button>
+
+{font-size: 12pt;
+margin: 10px 10px 10px10px
+line-heigth: 1.4;
+}
+
+.banner-header {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 50%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h3 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+/*
